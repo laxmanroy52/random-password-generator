@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--include font awesome-->
+  <script src="https://kit.fontawesome.com/d7d83b0a4e.js" crossorigin="anonymous"></script>
+  
+  <!--add css file-->
+  <link rel="stylesheet" href="style.css" />
+  <title>Random password generator</title>
+</head>
+<body>
+  <div id="main-section">
+    <label for="caption">Password Generator</label>
+    <div id="copy">
+    <input id="caption" type="text" value="" disabled />
+    <div id="copy-icon"><i class="fas fa-copy"></i></div>
+    <div id="copy-msg">Copied</div>
+    </div>
+    <input id="range" type="range" value="6" min="4" max="20" />
+    <ul>
+      <li>
+        <div class="key">Password length: </div>
+        <div class="value">5</div>
+      </li>
+      <li>
+        <div class="key">Include lowercase (a-z): </div>
+        <input class="box" type="checkbox" checked />
+      </li>
+      <li>
+        <div class="key">Include uppercase (A-Z): </div>
+        <input class="box" type="checkbox" checked />
+      </li>
+      <li>
+        <div class="key">Include number (0-9): </div>
+        <input class="box" type="checkbox" checked />
+      </li>
+      <li>
+        <div class="key">Include symble (@-?): </div>
+        <input class="box" type="checkbox" checked />
+      </li>
+    </ul>
+    <button>Generate Password</button>
+  </div>
+ <!--Add javascript file-->
+ <script src="custom.js"></script>
+</body>
+</html>
