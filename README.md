@@ -5,7 +5,7 @@
 
 The Random Password Generator is a web application that allows users to generate random passwords with customizable options. Users can choose the length of the password, select whether to include numbers, uppercase letters, lowercase letters, and symbols, providing flexibility and security when creating passwords.
 
-![Random Password Generator Screenshot](screenshot.png)
+![Random Password Generator Screenshot](Screenshot_20230619-103006~2.png)
 
 ## Features
 
